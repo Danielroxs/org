@@ -1,7 +1,9 @@
 import "./Footer.css";
+import footerbg from "../../assets/footer.png";
+
 const Footer = ()=> {
-    return <footer className="footer" style={{backgroundImage:"url(/img/Footer.png)"}}>
-        <div className="redes">
+    return <footer className="footer" style={{ backgroundImage: `url(${footerbg})` }}>
+        <div className='redes'>
         <a href='https://www.facebook.com/danny.roxs'> 
             <img src="/img/facebook.png" alt="Facebook"/>
         </a>
